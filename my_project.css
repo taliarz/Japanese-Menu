@@ -1,0 +1,431 @@
+.header{
+  width: 97%;
+  position:sticky;
+  top: 0;
+  padding: 20px;
+  text-align: center;
+  background: #9b111e;
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-weight: bold;
+  z-index: 10;
+
+  
+}
+.icons {
+  position: absolute;
+  right: 50px;
+  gap: 15px;
+  top: 25px;
+}
+
+.home{
+  position: absolute;
+  left: 50px;
+  top: 25px;
+}
+
+
+.navbar {
+  width: 26%;
+  background-color: #fbd96c;
+  overflow: auto;
+  border-radius: 15px; 
+  margin: 30px;
+  position:absolute;
+  right: 560px;       
+  z-index: 1;
+  
+
+}
+
+.navbar a {
+  float: left;
+  padding: 12px;
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-weight: bold
+
+  
+}
+.navbar a:hover {
+  background-color: #bd823d;
+}
+.active {
+  background-color: #bd823d;
+}
+
+.food-link{
+  text-decoration: none;
+}
+
+.food-item {
+  width: 200px;
+  background-color: #fdf8e1;
+  border-radius: 10px;
+  padding: 15px;
+  margin: 15px;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  
+}
+
+.food-item:hover {
+  background-color: #d8cd9c;
+}
+
+.food-image {
+  width: 100%;
+  height: 170px;
+  border-radius: 8px;
+}
+
+.food-title {
+  font-size: 18px;
+  margin: 10px 0 5px;
+  color: #333;
+}
+
+.food-ingredients {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.add-to-cart {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  
+}
+.add-to-cart:hover {
+  background-color: #575757;
+}
+
+.food-grid {
+  margin: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+}
+
+
+.view-cart a{
+  position: fixed;
+  bottom: 20px;             
+  right: 20px;              
+  background-color: #9b111e;
+  color: black;
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-size: 18px;
+  font-family: Arial, sans-serif;
+  text-decoration: none;
+  font-weight: bold;
+  
+   
+  
+}
+.view-cart a:hover {
+  background-color: #9a343e;
+}
+
+.option-1{
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  position: relative;
+  left: 20px;
+}
+
+.radio-option{
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 30px;
+  position: relative;
+  left: 20px;
+}
+
+.checkbox-option{
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 30px;
+  position: relative;
+  left: 20px;
+}
+
+
+.remarks-section textarea {
+  width: 70%;          
+  height: 50px;        
+  padding: 10px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+  left: 35px;
+      
+}
+
+.quantity{
+  position: relative;
+  left: 35px;
+}
+
+
+.after-customized {
+  margin: 30px;
+  background-color: black;
+  color: white;
+  border: none;
+  width: 80%;
+  padding: 5px;
+  border-radius: 9px;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+  left: 130px;
+}
+
+.top-section {
+  display: flex;              
+  align-items: center;        
+  gap: 20px;                  
+  padding: 20px;
+  
+}
+
+.section-name{
+  font-size: 30px;
+  font-weight: bold;
+}
+.top-text {
+  font-family: Arial, sans-serif;
+}
+.section-description{
+  color: #666;
+  font-size: small;
+}
+
+.back-arrow{
+  position: relative;
+  top: 20px;
+  left: 20px;
+}
+
+.header-b{
+  width: 98%;
+  padding: 14px;
+  text-align: center;
+  background: rgb(246, 204, 209);
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  font-weight: bold;
+  
+}
+
+.back-arrow-b{
+  position:absolute;
+  top: 120px;
+ 
+}
+
+.cart-items {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  position: relative;
+  left: 20px;
+  
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.main-content{
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+}
+
+
+
+.cart-box {
+  width: 615px;
+  height: 275px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+  overflow-y: auto;
+  background-color: #f9f9f9;
+  font-family: Arial, sans-serif;
+  
+  
+}
+
+.cart-item {
+  margin-bottom: 12px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #ddd;
+  display: flex;
+}
+
+
+
+
+.item-image {
+  width: 60px;
+  height: 60px;
+  border-radius: 6px;
+  margin-left: 5px;
+}
+
+.item-title {
+  font-weight: bold;
+  color: #333;
+}
+
+.item-details {
+  font-size: 14px;
+  color: #666;
+}
+
+.recipt-section{
+  width: 700px;
+  height: 270px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  
+}
+
+.recipt-details{
+  margin: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.recipt-final{
+  margin: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+
+}
+.recipt-finals{
+  font-weight: bold;
+  font-size: 30px;
+  position: relative;
+  left: 440px;
+}
+
+
+
+
+.promo-code {
+  position: relative;
+  left: 15px;
+  margin-top: 15px;
+}
+
+.apply{
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  color: #575757;
+}
+
+
+
+.bye-checkout {
+  
+  position: relative;
+  left: 200px;
+  background-color: #9b111e;
+  color: white;
+  padding: 6px 60px;
+  border-radius: 15px;
+  font-size: 18px;
+  font-family: Arial, sans-serif;
+  text-decoration: none;
+  font-weight: bold;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.recommended-container {
+  overflow-x: auto;       
+  overflow-y: hidden;     
+  padding: 10px;
+}
+
+.recommended-scroll {
+  display: flex;        
+  flex-direction: row;    
+  gap: 16px;              
+}
+
+.food-card {
+  position: relative;
+  width: 130px;       
+  background-color: #fdf8e1;
+  border-radius: 8px;
+  padding: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  text-align: center;
+  
+}
+
+.food-card img {
+  width: 100px;
+  height: 90px;
+  border-radius: 10px;
+  margin-bottom: 8px;
+}
+
+.recommend{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold
+}
+
+.view-more{
+  position: relative;
+  top: 70px;
+}

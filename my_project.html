@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rice Bowl Menu</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href='C:\Users\talia\OneDrive\ドキュメント\ADEV_DBEV\ADEV PROJECT\my_project.css'>
+</head>
+<body>
+
+    <!-- the header, first row above, this header will appear in most other pages -->
+
+    <div class="header">
+        <a class="title">‧₊˚✿~~~~~JAPANESE RICE BOWL~~~~~‧✿˚₊‧</a>
+        <div class="icons">
+            <a href="#"><i class='fa fa-search' style='font-size:36px; color: white;'></i></a>
+            <a href="#"><i class='fa fa-shopping-cart' style='font-size:36px; color: white;'></i></a>
+            <a href="#"><i class='fas fa-user-circle' style='font-size:36px; color: white;'></i></a>
+        </div>
+        <div class="home">
+            <a href="my_project.html"><i class='fa fa-home' style='font-size:36px; color: white;'></i></a>
+        </div>
+    </div>
+    
+    <!-- the navbar that categorizes food by their ingredients or type -->
+    <div class="navbar">
+        <a class="active" href="#">All</a>
+        <a href="seperation.html">Beef</a>
+        <a href="#">Chicken</a>
+        <a href="#">Salmon</a>
+        <a href="#">Sides</a>
+    </div>
+
+    <!-- invisible grid to allow each food to have their own food card(more organised) -->
+    <div class="food-grid">
+        <a href="item.html" class="food-link">
+            <div class="food-item">
+
+                <!-- different food options the stall has -->
+                <img src="C:\Users\talia\OneDrive\ドキュメント\ADEV_DBEV\ADEV PROJECT\Screenshot 2025-12-04 175012.png" class="food-image">
+                <h3 class="food-title">Original Beef Yakiniku Bowl </h3>
+                <p class="food-ingredients">
+                    Gyudon beef, seaweed, Japanese rice
+                </p>
+                <button class="add-to-cart">Add to cart — $7.00</button>
+            </div>
+        </a>  
+
+
+        <div class="food-item">
+            <img src="C:\Users\talia\OneDrive\ドキュメント\ADEV_DBEV\ADEV PROJECT\Screenshot 2025-12-04 112616.png" class="food-image">
+            <h3 class="food-title">Beef Bowl with Onsen Egg</h3>
+            <p class="food-ingredients">
+                Gyudon beef, seaweed, Japanese rice, egg
+            </p>
+            <button class="add-to-cart">Add to cart — $7.30</button>
+        </div>
+        <div class="food-item">
+            <img src="C:\Users\talia\OneDrive\ドキュメント\ADEV_DBEV\ADEV PROJECT\Screenshot 2025-12-04 115141.png" class="food-image">
+            <h3 class="food-title">Beef Bowl with Kimchi (spicy)</h3>
+            <p class="food-ingredients">
+                Gyudon beef, seaweed, Japanese rice, kimchi
+            </p>
+            <button class="add-to-cart">Add to cart — $8.90</button>
+        </div>
+        
+        <div class="food-item">
+            <img src="C:\Users\talia\OneDrive\ドキュメント\ADEV_DBEV\ADEV PROJECT\Screenshot 2025-12-04 175658.png" class="food-image">
+            <h3 class="food-title">Original Beef Yakiniku Bowl with Eggs </h3>
+            <p class="food-ingredients">
+                Gyudon beef, seaweed, Japanese rice, Egg
+            </p>
+            <button class="add-to-cart">Add to cart — $7.70</button>
+        </div>
+
+
+        <div class="food-item">
+            <img src="C:\Users\talia\OneDrive\ドキュメント\ADEV_DBEV\ADEV PROJECT\Screenshot 2025-12-04 115541.png" class="food-image">
+            <h3 class="food-title">Grilled Chicken Bowl with Spring Onion</h3>
+            <p class="food-ingredients">
+                Grilled Chicken,  Seaweed, Japanese rice, Garlic
+            </p>
+            <button class="add-to-cart">Add to cart — $7.60</button>
+        </div>
+        <div class="food-item">
+            <img src="C:\Users\talia\OneDrive\ドキュメント\ADEV_DBEV\ADEV PROJECT\Screenshot 2025-12-04 172755.png" class="food-image">
+            <h3 class="food-title">Teriyaki Chicken Bowl with Kimchi</h3>
+            <p class="food-ingredients">
+                Teriyakia Chicken,  Seaweed, Japanese rice, Kimchi
+            </p>
+            <button class="add-to-cart">Add to cart — $7.50</button>
+        </div>
+        <div class="food-item">
+            <img src="C:\Users\talia\OneDrive\ドキュメント\ADEV_DBEV\ADEV PROJECT\Screenshot 2025-12-04 173820.png" class="food-image">
+            <h3 class="food-title">Teriyaki Chicken Bowl with Onsen Egg</h3>
+            <p class="food-ingredients">
+                Teriyaki Chicken,  Seaweed, Japanese rice, Egg
+            </p>
+            <button class="add-to-cart">Add to cart — $7.30</button>
+        </div>
+        <div class="food-item">
+            <img src="C:\Users\talia\OneDrive\ドキュメント\ADEV_DBEV\ADEV PROJECT\Screenshot 2025-12-04 174321.png" class="food-image">
+            <h3 class="food-title">Teriyaki Chicken Bowl with Onsen Eggs</h3>
+            <p class="food-ingredients">
+                Teriyaki Chicken,  Seaweed, Japanese rice, Egg
+            </p>
+            <button class="add-to-cart">Add to cart — $8.00</button>
+        </div>
+
+
+        <div class="food-item">
+            <img src="C:\Users\talia\OneDrive\ドキュメント\ADEV_DBEV\ADEV PROJECT\Screenshot 2025-12-04 120235.png" class="food-image">
+            <h3 class="food-title">Teriyaki Salmon Bowl with Spring Onion</h3>
+            <p class="food-ingredients">
+                Salmon, Seaweed, Japanese rice, Spring Onion
+            </p>
+            <button class="add-to-cart">Add to cart — $9.90</button>
+        </div>
+        <div class="food-item">
+            <img src="C:\Users\talia\OneDrive\ドキュメント\ADEV_DBEV\ADEV PROJECT\Screenshot 2025-12-04 181015.png" class="food-image">
+            <h3 class="food-title">Teriyaki Salmon Bowl with Onsen Egg</h3>
+            <p class="food-ingredients">
+                Salmon, Seaweed, Japanese rice, Egg
+            </p>
+            <button class="add-to-cart">Add to cart — $10.60</button>
+        </div>
+        <div class="food-item">
+            <img src="C:\Users\talia\OneDrive\ドキュメント\ADEV_DBEV\ADEV PROJECT\Screenshot 2025-12-04 181329.png" class="food-image">
+            <h3 class="food-title">Double Teriyaki Salmon Bowl</h3>
+            <p class="food-ingredients">
+                Salmon, Seaweed, Japanese rice, Spring Onion
+            </p>
+            <button class="add-to-cart">Add to cart — $12.60</button>
+        </div>
+
+
+
+        <div class="food-item">
+            <img src="C:\Users\talia\OneDrive\ドキュメント\ADEV_DBEV\ADEV PROJECT\Screenshot 2025-12-04 170152.png" class="food-image">
+            <h3 class="food-title">Crispy Deep Fried Chicken Karaage</h3>
+            <p class="food-ingredients">
+                Chicken, Garlic, Sesame Oil, Soy Sauce
+            </p>
+            <button class="add-to-cart">Add to cart — $4.00</button>
+        </div>
+        <div class="food-item">
+            <img src="C:\Users\talia\OneDrive\ドキュメント\ADEV_DBEV\ADEV PROJECT\Screenshot 2025-12-04 181702.png" class="food-image">
+            <h3 class="food-title">Barbeque Grilled Unagi</h3>
+            <p class="food-ingredients">
+                Unagi Fish, Garlic, Sesame Oil, Soy Sauce
+            </p>
+            <button class="add-to-cart">Add to cart — $7.00</button>
+        </div>
+    </div>  
+    
+    <!-- view cart button to access the cart -->
+    <div class="view-cart">
+        <a href="cart.html">View Cart →</a>
+    </div>
+
+
+
+    
+
+</body>
+</html>
+
+
+
